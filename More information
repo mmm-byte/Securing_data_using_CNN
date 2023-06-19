@@ -1,4 +1,4 @@
-Securing data using CNN (Convolutional Neural Networks) may not be the most suitable approach, as CNNs are primarily used for image analysis tasks such as object recognition and computer vision. However, I can provide information on securing data using other methods, such as encryption and cryptographic techniques.
+Securing data using CNN (Convolutional Neural Networks) may not be the most suitable approach, as CNNs are primarily used for image analysis tasks such as object\n recognition and computer vision. However, I can provide information on securing data using other methods, such as encryption and cryptographic techniques.
 
 Encryption: Encryption is a common method for securing data. It involves transforming the original data into an unreadable form using an encryption algorithm. The data can only be decrypted and accessed by authorized parties possessing the decryption key. Popular encryption algorithms include AES (Advanced Encryption Standard) and RSA (Rivest-Shamir-Adleman).
 
