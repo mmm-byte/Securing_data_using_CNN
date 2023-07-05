@@ -11,3 +11,33 @@ CNNs are powerful at extracting meaningful features from images. By utilizing a 
  Using the extracted features, a classification model can be trained to **distinguish between normal and steganographic images**. This model can be trained using supervised learning techniques, where labeled datasets of normal and steganographic images are used to teach the model to differentiate between them.
 
  Once the classification model is trained, it can be used to detect whether an image contains hidden information. By analyzing the image with the trained model, it can identify **potential steganographic content and raise an alert if hidden data is detected.** This can aid in identifying unauthorized or malicious use of steganography.
+
+
+# Image Encryption using CNN
+
+This project demonstrates how to use a Convolutional Neural Network (CNN) for image encryption and decryption. The CNN model is trained to encode an image into an encrypted representation, which can then be decrypted to retrieve the original image.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7 or above
+- TensorFlow 2.x
+
+### Installation
+
+1. Clone the repository:
+
+```shell
+git clone https://github.com/your_username/image-encryption-cnn.git
+
+1. Navigate to the project directory:
+cd image-encryption-cnn
+
+2. Install the required dependencies:
+pip install tensorflow
+ 
+### Usage
+Place the input image that you want to encrypt in the project directory or specify the file path in the code.
+
+Run the Code.py script to encrypt the image:
