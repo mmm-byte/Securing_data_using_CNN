@@ -27,7 +27,7 @@ This project demonstrates how to use a Convolutional Neural Network (CNN) for im
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/your_username/image-encryption-cnn.git
+git clone https://github.com/mmm-byte/Securing_data_using_CNN.git
 
 2. Navigate to the project directory:
 cd image-encryption-cnn
