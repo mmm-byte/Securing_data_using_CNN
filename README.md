@@ -27,17 +27,32 @@ This project demonstrates how to use a Convolutional Neural Network (CNN) for im
 ### Installation
 
 1. Clone the repository:
-
-```shell
 git clone https://github.com/your_username/image-encryption-cnn.git
 
-1. Navigate to the project directory:
+2. Navigate to the project directory:
 cd image-encryption-cnn
 
-2. Install the required dependencies:
+3. Install the required dependencies:
 pip install tensorflow
  
 ### Usage
 Place the input image that you want to encrypt in the project directory or specify the file path in the code.
+The encrypted image will be saved in the output directory as encrypted_image.png.
+To decrypt the encrypted image and obtain the original image, run the script:
+Run the Code.py script to encrypt and decrypt the image
+The decrypted image will be saved in the output directory as decrypted_image.png.
 
-Run the Code.py script to encrypt the image:
+### Customization
+If you want to use a different image for encryption, replace the image_path variable with the path to your desired image in the respective script.
+
+You can modify the CNN model architecture in the model variable defined in the code to experiment with different encryption schemes.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+### Acknowledgments
+The CNN model architecture and code structure were inspired by various image processing and computer vision tutorials.
+
+TensorFlow: https://www.tensorflow.org/
+
+OpenAI GPT-3.5: https://openai.com/research/gpt-3-5
